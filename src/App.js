@@ -385,11 +385,7 @@ function App() {
           </div>
           <div className="col-1-of-2">
             <p className="footer__copyright">
-              Built by <a href="#" className="footer__link">Jonas Schmedtmann</a> for his online course <a href="#"
-                className="footer__link">Advanced CSS and Sass</a>.
-                Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use this webpage for both personal
-                and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas
-                Schmedtmann, is of course highly appreciated!
+              Built by <a href="#" className="footer__link">Toan Nguyen</a>
             </p>
           </div>
         </div>
@@ -415,10 +411,7 @@ function App() {
               gravida cum sociis natoque penatibus et. Proin fermentum leo vel orci porta non pulvinar neque
               laoreet.
               Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis.
-              Faucibus
-              vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa
-              vitae tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed
-              euismod nisi porta.
+              Faucibus.
             </p>
             <a href="#" className="btn btn--green">Book now</a>
           </div>

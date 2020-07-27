@@ -65,6 +65,36 @@
         hyphens: auto;
     }
 
+    @include respond(phone) {
+        &__content {
+            height: 90vh;
+        }
+
+        &__left {
+            display: block;
+            // margin: 0;
+            width: 100%;
+            padding: 10px;
+        }
+    
+        &__right {
+            display: block;
+            height: 70vh;
+            width: 100%;
+        }
+
+        &__img {
+            display: inline-block;
+            width: 50%;
+        }
+
+        &__text {
+            height: 45vh;
+            column-count: 1;
+            text-align: justify;
+        }
+    }
+
     //Open states
     &:target {
         opacity: 1;
