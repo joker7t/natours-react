@@ -67,7 +67,7 @@
 
     @include respond(phone) {
         &__content {
-            height: 90vh;
+            height: 80vh;
         }
 
         &__left {
@@ -79,19 +79,20 @@
     
         &__right {
             display: block;
-            height: 70vh;
             width: 100%;
         }
 
         &__img {
             display: inline-block;
             width: 50%;
+            height: 100px;
         }
 
         &__text {
-            height: 45vh;
             column-count: 1;
+            overflow-y: scroll;
             text-align: justify;
+            height: 300px;
         }
     }
 
